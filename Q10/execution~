@@ -1,0 +1,11 @@
+
+hadoop fs -rmr /niit/output1a
+
+hadoop jar /home/hduser1/h1b.jar h1b_project.Q1a /niit/h1b/0* /niit/output1a
+
+hadoop fs -cat /niit/output1a/p*
+
+
+hadoop fs -rm -r /niit/projectoutput10
+hadoop jar /home/hduser1/h1b.jar h1b_project.Q10 /niit/h1b/0* /niit/projectoutput10
+hadoop fs -cat /projectoutput10/p*
